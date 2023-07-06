@@ -1,7 +1,8 @@
 import "./style.css";
-import Home from "./component/Home";
+import Home from "./pages/Home";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Layout from "./layout/Layout";
+import JDC from "./component/JDC";
 
 function App() {
   return (
@@ -11,6 +12,8 @@ function App() {
           <Route path="/" element={<Layout />}>
 
           <Route index element={<Home />} />
+          <Route path="jdc" element={<JDC />} />
+
 
 
           </Route>

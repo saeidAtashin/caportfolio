@@ -1,11 +1,14 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
     <div className="home-container">
       <div className="home-container-wrap">
         <div className="img-container">
+        <Link to="/jdc">
           <img src="./images/hompage1-1.png" alt="jef de" className="jpg-100" />
+          </Link>
         </div>
         <div className="img-container">
           <img src="./images/hompage2.png" alt="jef de" className="jpg-100" />
