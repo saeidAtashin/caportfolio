@@ -5,13 +5,13 @@ const Home = () => {
     <div className="home-container">
       <div className="home-container-wrap">
         <div className="img-container">
-          <img src="./images/hompage1-1.png" alt="jef de" className="imgimg" />
+          <img src="./images/hompage1-1.png" alt="jef de" className="jpg-100" />
         </div>
         <div className="img-container">
-          <img src="./images/hompage2.png" alt="jef de" className="imgimg" />
+          <img src="./images/hompage2.png" alt="jef de" className="jpg-100" />
         </div>
         <div className="img-container">
-          <img src="./images/hompage3.png" alt="jef de" className="imgimg" />
+          <img src="./images/hompage3.png" alt="jef de" className="jpg-100" />
         </div>
         <div className="img-container">
           <img src="./images/hompage4.jpg" alt="jef de" className="jpg-100 " />
@@ -26,7 +26,7 @@ const Home = () => {
           <img src="./images/hompage7.jpg" alt="jef de" className="jpg-100" />
         </div>
         <div className="img-container">
-          <img src="./images/hompage8.png" alt="jef de" className="imgimg" />
+          <img src="./images/hompage8.png" alt="jef de" className="jpg-100" />
         </div>
       </div>
     </div>
