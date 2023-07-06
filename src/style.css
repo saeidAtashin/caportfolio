@@ -161,6 +161,71 @@ html {
   width: 569px;
 }
 
+.text-container2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 144px;
+  margin-bottom: 90px;
+}
+.text-container2 h1 {
+  font-size: 32px;
+  color: #ABABAB !important;
+  width: 144px;
+}
+.text-container2 p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #ABABAB !important;
+  width: 532px;
+}
+
+.flend {
+  margin-right: 150px;
+}
+
+.rel-color-position {
+  position: relative;
+}
+.rel-color-position p {
+  position: absolute;
+  top: 20%;
+  left: 106px;
+}
+
+.mb-00 {
+  margin-bottom: 220px !important;
+  width: 100%;
+}
+
+.color1 {
+  background-color: #212121;
+  width: 90px;
+  height: 32px;
+}
+
+.color2 {
+  background-color: #2E2E2E;
+  width: 90px;
+  height: 32px;
+}
+
+.color3 {
+  background-color: #BA8A3A;
+  width: 90px;
+  height: 32px;
+}
+
+.color4 {
+  background-color: #CECECE;
+  width: 90px;
+  height: 32px;
+}
+
+.color-palette p {
+  line-height: 28px;
+}
+
 @media (max-width: 640px) {
   .header-center {
     font-size: 10px !important;
