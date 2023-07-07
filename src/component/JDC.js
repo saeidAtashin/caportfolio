@@ -82,7 +82,25 @@ const JDC = () => {
         <div className="d-flex typo-style">
           <div className="width-typography">
             <p>TYPEFACE : NUNITO</p>
-            <div className="box"></div>
+            <div className="box">
+              <p className="left-p">
+                <div>Aa</div> <div>Bb</div> <div>Cc</div> <div>Dd</div>
+                <div>Ee</div> <div>Fe</div> <div>Gg</div> <div>Hh</div>
+                <div>Ii</div> <div>Jj</div> <div>Kk</div> <div>Ll</div>
+                <div>Mm</div> <div>Nn</div> <div>Oo</div> <div>Pp</div>
+                <div>Qq</div> <div>Rr</div> <div>Ss</div> <div>Tt</div>
+                <div>Uu</div>
+                <div>Vv</div> <div>Ww</div> <div>Xx</div> <div>Yy</div>
+                <div>Zz</div>
+              </p>
+              <p className="second-left-p">
+                <div>1</div> <div>2</div> <div>3</div> <div>4</div> <div>5</div>
+                <div>6</div> <div>7</div> <div>8</div> <div>9</div> <div>0</div>
+                <div>!</div> <div>@</div> <div>#</div> <div>$</div> <div>%</div>
+                <div>^</div> <div>&</div> <div>*</div> <div>(</div> <div>)</div>
+                <div>-</div>
+              </p>
+            </div>
           </div>
           <div className="width-typography">
             <p>TYPEFACE : PLAYBALL</p>
