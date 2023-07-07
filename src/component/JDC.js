@@ -6,12 +6,12 @@ import BreadCrumb from "./BreadCrumb";
 const JDC = () => {
   return (
     <>
-      <div className="backto d-flex container-sm">
+      <div className="backto d-flex container-xl">
         <img src={backto} alt="backto" />
         <Meta title="JDC" />
         <BreadCrumb title="JDC" />
       </div>
-      <div className="overview-container container-sm">
+      <div className="overview-container container-xl">
         <div className="text-container">
           <h1>Project Overview</h1>
           <p>
@@ -29,7 +29,7 @@ const JDC = () => {
           />
         </div>
       </div>
-      <div className="overview-container container-sm">
+      <div className="overview-container container-xl">
         <div className=" text-container2">
           <h1>Color Palette</h1>
           <p>
@@ -66,7 +66,7 @@ const JDC = () => {
         </div>
       </div>
 
-      <div className="overview-container container-sm">
+      <div className="overview-container container-xl">
         <div className="text-container">
           <h1>Typography</h1>
           <p className="width-p3">
@@ -124,6 +124,32 @@ const JDC = () => {
               </p>
             </div>
           </div>
+        </div>
+      </div>
+
+      <div className="overview-container container-xl">
+        <div className="text-container">
+          <h1>Full Preview</h1>
+          <div className="d-flex f-p-b" >
+          <p className="full-preview-p">
+            This website design project captures the essence of simplicity,
+            functionality, and clarity, reflecting the creativity and passion of
+            a skilled chef. By incorporating primary colors, utilizing an
+            appropriate typeface, and implementing grid-based layouts, the
+            design exudes visual appeal while providing a seamless user
+            experience. These elements harmoniously showcase a modern and
+            innovative brand image. To access the design of the homepage, you
+            can download it as a PNG file.
+          </p>
+          <button className="button">DOWNLOAD</button>
+          </div>
+        </div>
+        <div className="img-container-jdc">
+          <img
+            src="/images/chef3.png"
+            alt="home Chef"
+            className="img-fluid mb-00"
+          />
         </div>
       </div>
     </>
