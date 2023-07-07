@@ -29,6 +29,10 @@ html {
   background: #FF0000;
 }
 
+.text-abab {
+  color: #ABABAB;
+}
+
 .App {
   color: brown;
 }
@@ -355,6 +359,14 @@ html {
 
 .full-preview-p {
   width: 713px !important;
+}
+
+.suggest-text {
+  font-family: SF Pro Display;
+  font-size: 20px !important;
+  font-style: normal;
+  font-weight: 800 !important;
+  line-height: 128px;
 }
 
 @media (max-width: 640px) {

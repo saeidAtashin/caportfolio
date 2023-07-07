@@ -2,6 +2,7 @@ import React from "react";
 import backto from "../images/back icon.svg";
 import Meta from "./Meta";
 import BreadCrumb from "./BreadCrumb";
+import Suggest from "./Suggest";
 
 const JDC = () => {
   return (
@@ -152,6 +153,8 @@ const JDC = () => {
           />
         </div>
       </div>
+
+      <Suggest />
     </>
   );
 };
