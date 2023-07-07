@@ -6,14 +6,12 @@ import BreadCrumb from "./BreadCrumb";
 const JDC = () => {
   return (
     <>
-      {" "}
       <div className="backto d-flex container-sm">
         <img src={backto} alt="backto" />
         <Meta title="JDC" />
         <BreadCrumb title="JDC" />
-      </div>{" "}
+      </div>
       <div className="overview-container container-sm">
-        {" "}
         <div className="text-container">
           <h1>Project Overview</h1>
           <p>
@@ -22,16 +20,15 @@ const JDC = () => {
             design. The website will serve as a platform to showcase the chef's
             diverse culinary services and consultancy.
           </p>
-        </div>{" "}
+        </div>
         <div className="img-container-jdc">
-          {" "}
           <img
             src="/images/hompage1-1.png"
             alt="home Chef"
             className="img-fluid mb-00"
-          />{" "}
+          />
         </div>
-      </div>{" "}
+      </div>
       <div className="overview-container container-sm">
         <div className=" text-container2">
           <h1>Color Palette</h1>
@@ -67,7 +64,50 @@ const JDC = () => {
             className="img-fluid mb-00"
           />
         </div>
-      </div>{" "}
+      </div>
+
+      <div className="overview-container container-sm">
+        <div className="text-container">
+          <h1>Typography</h1>
+          <p className="width-p3">
+            The website employs two fonts: Playball Pro and Nunito. <br />
+            Playball Pro is chosen for its playful and elegant characteristics,
+            reflecting the chef's creativity and passion, <br />
+            Nunito, on the other hand, is selected for its clean and modern
+            aesthetic, providing excellent readability. <br />
+            Its versatility and simplicity align with the simple design of the
+            website, enhancing the user experience.
+          </p>
+        </div>
+        <div className="d-flex typo-style">
+          <div className="width-typography">
+            <p>TYPEFACE : NUNITO</p>
+            <div className="box"></div>
+          </div>
+          <div className="width-typography">
+            <p>TYPEFACE : PLAYBALL</p>
+            <div className="box">
+              <p className="first-p">
+                <div>Aa</div> <div>Bb</div> <div>Cc</div> <div>Dd</div>
+                <div>Ee</div> <div>Fe</div> <div>Gg</div> <div>Hh</div>
+                <div>Ii</div> <div>Jj</div> <div>Kk</div> <div>Ll</div>
+                <div>Mm</div> <div>Nn</div> <div>Oo</div> <div>Pp</div>
+                <div>Qq</div> <div>Rr</div> <div>Ss</div> <div>Tt</div>
+                <div>Uu</div>
+                <div>Vv</div> <div>Ww</div> <div>Xx</div> <div>Yy</div>
+                <div>Zz</div>
+              </p>
+              <p className="second-p">
+                <div>1</div> <div>2</div> <div>3</div> <div>4</div> <div>5</div>
+                <div>6</div> <div>7</div> <div>8</div> <div>9</div> <div>0</div>
+                <div>!</div> <div>@</div> <div>#</div> <div>$</div> <div>%</div>
+                <div>^</div> <div>&</div> <div>*</div> <div>(</div> <div>)</div>
+                <div>-</div>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </>
   );
 };
